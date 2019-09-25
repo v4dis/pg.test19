@@ -3,5 +3,7 @@ public class Asdf {
 	System.out.println("SOS");
 	System.out.println("SOS");
 	System.out.println("SOS");
+	System.out.println("SOS");
+	System.out.println("SOS");
     }
 }
