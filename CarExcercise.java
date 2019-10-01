@@ -6,6 +6,7 @@ public class CarExcercise{
 	CarWash wash1 = new CarWash(car1);
 	printCarInfo(car1);
     }
+    
     public static void printCarInfo(Car input){
 	System.out.println("Model\t\t:\t" + input.modelName);
 	System.out.println("Model year\t:\t" + input.modelYear);

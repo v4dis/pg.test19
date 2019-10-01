@@ -1,0 +1,68 @@
+1. Variables and types
+   a. En namngiven "låda" som kan innehålla ett värde. - 
+      Lärarens Svar: (En plats i minnet som har ett namn och där man kan spara ett
+                     värde).
+
+   b. En typ (datatyp) dikterar hur data sparas och behandlas av programmet.
+      Lärarens Svar: Hur vi namnger tillåtna värden på en variabel/uttryck. (/objekt)
+
+   c. int myInt;
+      Svar: int myInt;
+
+   d. myInt = 23456;
+      Svar: 
+
+2. Expressions and operators
+   a. 13 + 3 * 2; resultat: 19 av typen int (eller long, short, byte)
+
+   b. 17​-3*max(13,​14); = 17-3*max (max=14) = 17-3*14 =-25 av typen int.
+
+   c. nrStudents > 40  - nrStudents större än 40, typen är Boolean.
+      Lärarens svar: jämför innhållet i nrStudents och jämför med talet 40 för
+      att se om nrStudents är större än 40.
+ 
+   d. (nrStudents​>40​)||​(nrStudents<0) = nrStudens större än 40 eller nrStudens
+   mindre än 0. Uttrycket är av typ Boolean.
+     
+
+3. Controlflow
+   a. 25 = "It's OK"
+      5 = "Soon, life is over!"
+      0 = existerar ej som alternativ.
+
+   b. -1 = 0 ggr
+       0 = 0 ggr 
+       5 = 5 ggr
+
+   c. -1 = 0 ggr
+       0 = 0 ggr
+       5 = 5 ggr
+
+   d. for (int i = 0;i<56;i++) {scream()}
+
+4. Objects in Java
+   a. Är en kodsnutt (som en allmän metod) man kan använda som mall för
+   tillverkning av nya objekt av referenstyp. En instans av en klass. En
+   gruppering av data och operationer/b.
+
+   Lärarens svar: En entitet som kan lagra värden, utföra metoder och beskrivs
+                  av en klass. (Har tillstånd)
+
+   b. String anyOddString;
+   c. Ett, n hänvisar till m
+   d. skip
+   e. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

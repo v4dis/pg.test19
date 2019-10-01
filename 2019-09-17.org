@@ -1,0 +1,10 @@
+Standardmetoder
+1. System.out.println();
+2. System.out.print();
+3. Scanner
+
+Referenstyper:
+String 
+int[]
+Scanner
+
