@@ -1,0 +1,23 @@
+
+#+BEGIN_SRC java
+
+Throwable
+|         \
+Errors    Exceptions
+            \______
+            /      \
+           /       RuntimeException
+          /
+     IOException
+
+#+END_SRC 
+
+try catch finally
+
+Exceptions skickas uppåt i "the call stack".
+
+* Unchecked exceptions 
+  Behöver inte catch 
+
+* Checked exceptions
+  Måste ha try - catch

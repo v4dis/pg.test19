@@ -1,0 +1,11 @@
+* this and final
+
+** this: för att komma åt sig själv inom klassen.
+   this kallad mot variabel hänvisar till klass variabler.
+   this kallad som method pekar på konstruktorn.
+   this har samma typ som klassen den är i. Den evaluates till samma object som
+   den finns i.
+
+** final: skapar  konstanter.
+   Stora bokstäver och under_score. MAX_HEIGHT
+

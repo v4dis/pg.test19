@@ -1,0 +1,26 @@
+* Abstract classes
+
+  Abstrakta metoder kan bara defineras i en abstrakt klass.
+  Abstrakta metoder får inte innehålla kod.
+
+  man kan inte instansiera abstrakta klasser.
+
+  abstrakta klasser kan inte vara private
+
+
+            Interface | Abstract class | Class
+  Abstract--------------------------------------Concrete
+
+
+	    Abstrakta classer måste ärvas men kan innehålla 
+	    allt som finns i vanliga klasser.
+
+
+#+BEGIN_SRC java
+
+public abstract class AbstractClass{
+}
+
+#+END_SRC
+
+* Super constructor

@@ -1,0 +1,4 @@
+* The layout of a Java program
+** Måste innehålla class och inne i klassen ska finnas main loop
+   metoder = funktioner
+   1 klass per fil

@@ -1,0 +1,15 @@
+* Interfaces
+  innehåller inga variabler.
+  interface metoder är public
+  alla metoder måste implementeras
+  
+** Varför interface
+   Struktur - tvingar till strukturerat klassgeneration
+   Tvinga beteende
+   Hjälper mot MI-problem - Multiple inheritance (MI-problem = Man kan inte ha
+   flera inheritances i java).
+
+   Interface is a type
+   man kan inte göra en instans av en interface
+   lathund för klass skapande
+

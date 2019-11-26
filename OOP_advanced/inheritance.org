@@ -1,0 +1,36 @@
+* Inheritance
+
+  parentclass -> childclass
+  superclass -> subclass
+
+#+BEGIN_SRC java
+public class Teacher extends Person{ // Teacher ärver från Person
+
+}
+#+END_SRC
+  
+
+* UML unified modelling language
+
+#+BEGIN_SRC text
+     +--------+
+     | Person |
+     +--------+
+      ^      ^
+      |      |
++--------+ +---------+
+|Teacher | | Student |
++--------+ +---------+
+
+#+END_SRC
+
+
+private går vidare till subklassen men subklassen kan inte nå dem.
+protected syns i subklasser.
+
+#+BEGIN_SRC java
+ super(name);
+#+END_SRC
+
+man kan inte sätta variabler inom kodblock som public etc för att de är lokala
+till blocket.

@@ -1,0 +1,2 @@
+null kan tilldelas reference typ.
+

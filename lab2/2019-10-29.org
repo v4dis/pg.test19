@@ -1,0 +1,10 @@
+* 2-dimensionella arrayer
+  nested for-loops
+
+  int [][] b;
+  min 6x8 
+
+  fill funktion (fyll med mellanslag)
+
+  Arrays.fill(vilken array, vad som fylls med);
+

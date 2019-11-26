@@ -1,0 +1,11 @@
+Skriva test med JUnit
+
+* vad är ett test?
+  Mjukvara som kör annan mjukvara.
+  Skriv test först
+
+**  behaviour testing - gör koden det den skall
+**  state testing - returnerar rätt sak
+
+
+Classpath

@@ -1,0 +1,29 @@
+this = kollar uppåt i sin klass.
+
+this matchas mot den konstruktor som matchar mönstret.
+
+* TODO kolla upp this metoden
+
+  public class
+
+static (class baserad) = nås av alla saker i klassen. Alla instanser delar samma
+kopia. Alla som delar samma klass kan nå variabeln.
+
+Klass baserad INTE instansbaserad.
+
+|           | Instans()        | Class (static)   |
+|-----------+------------------+------------------|
+| variabler | instansvariabler | classvariabler   |
+| metoder   | instansmetoder   | statiska metoder |
+|           |                  |                  |
+
+* toString
+  returnerar objekt som sträng.
+
+#+BEGIN_SRC java
+
+  public String toString(){
+  return name + age + cute;
+  }
+
+#+END_SRC

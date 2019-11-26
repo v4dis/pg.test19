@@ -4,7 +4,6 @@ import java.util.ArrayList;
 public class SimpleDiceGame{
 
     public static void main(String[] args){
-
 	ArrayList<Player> listOfPlayers = new ArrayList<Player>(initialize());
 
 	for (int i = 0; i < 5; i++){

@@ -1,0 +1,11 @@
+* Method overloading
+
+  Flera metoder med samma namn men ollika inargument. ex. konstruktor.
+
+  Signaturen måste vara unik. 
+
+  Signatur = namn + argumentslista.
+
+  Namnet på in argumenten spelar inger roll, det är mönstret som spelar
+  roll. Olika return types gör heller ingen skillnad.
+
