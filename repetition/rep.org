@@ -1,0 +1,64 @@
+* Inheritance
+  super
+  this
+  Overriding @Override
+
+* Polymorphism
+** Skillnad mellan deklarerad och faktisk typ
+   <Deklarerad typ> <Namn> = new <Faktisk typ>
+   Deklarerad typ bestämmer hur objektet kommer fungera.
+   man deklarerar olika (polymorphism) för att använda samma metod för olika
+   typer av objekt.
+
+   man Skapar ett objekt med egenskaper av den deklarerade typen med potenial
+   från den faktiska typen, som man implementerar med typecasting.
+
+*** Typecasting   
+    Använd gärna exceptions när du typecastar
+    Typecasta alltid uppåt eller nedåt aldrig i sidled.
+
+
+
+**  Man kan gruppera
+
+**  objekt har flera typer
+  
+
+  
+* Standard klasser
+** Math
+   behöver inte importeras
+   Math.PI // 3.14...
+
+** Random
+   
+** Scanner
+   reset nextLine(); Använd en tom nextLine mellan användande för att reset'a
+   den.
+
+** String
+
+** Immutable
+   om man gör ett object med privata variabler utan setters blir automatiskt ett
+   immutable object.
+
+** Static
+   Finns bara en i programmet. lokalglobala saker. I main ska alla metoder vara
+   static.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

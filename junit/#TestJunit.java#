@@ -20,4 +20,8 @@ public class TestJunit {
 	}
 	
     }
+
+    public void testDriven() {
+	
+    }
 }

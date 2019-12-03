@@ -1,3 +1,4 @@
+import java.util.Random;
 public class Skeleton{ // A class should start with capital letter - always
     public static void main(String[] args){
 	int x = 1; // Example variables
@@ -64,7 +65,7 @@ public class Skeleton{ // A class should start with capital letter - always
 	int division =        x / y;
 	int modulus =         x / y;
 	int increment =       ++x;
-	int decrement =       --;x
+	int decrement =       --x;
 	// lägg till x--, x++
 
 	// Assignment operators
@@ -105,6 +106,16 @@ public class Skeleton{ // A class should start with capital letter - always
 	c1 = a1 >>> b1; // Shift a1 by b1 bits right (Shift right zero fill operator)
 	                // and fill left bits with 0's.
 
+	/* 
+	   Strings
+	   Strings in Java are objects, that's why it has the same format as object creation.
+	   Strings contain their own methods like .length(); 
+	*/
 	
+	String example = new String("Hello");
+	example.length(); // Returns the length of the String.
+
+	Random r = new Random();
+	System.out.println(r.nextInt(10));
     }
 }

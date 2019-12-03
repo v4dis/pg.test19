@@ -4,8 +4,13 @@ Skriva test med JUnit
   Mjukvara som kör annan mjukvara.
   Skriv test först
 
+  <klassnamn>Test.java
+  testmetoder annoteras med @Test.
+
 **  behaviour testing - gör koden det den skall
 **  state testing - returnerar rätt sak
 
+** Testdriven utveckling
+   Man skriver ofta testerna innan man skriver programmen.
 
-Classpath
+

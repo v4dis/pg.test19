@@ -1,3 +1,4 @@
+import java.util.Random;
 public class Skeleton{ // A class should start with capital letter - always
     public static void main(String[] args){
 	int x = 1; // Example variables
@@ -5,7 +6,7 @@ public class Skeleton{ // A class should start with capital letter - always
 
 	// Primitive data types
 
-	// Integer types
+	// Ingeger types
 	byte byteMin = -128, byteMax = 127;              // 1 byte  
 	short shortMin = -32768, shortMax = 32767;       // 2 bytes 
 	int intMin=-2147483, intMax=2147483647;          // 4 bytes
@@ -24,7 +25,7 @@ public class Skeleton{ // A class should start with capital letter - always
 	String stringMe = "A String is actually an object";
 	String[] arrayMe = {"This","is","Array"};
 	int[] arrayInt = {1,2,3};
-	NewClass myObj1 = new NewClass();
+	//NewClass myObj1 = new NewClass();
 	MyClass myObj2 = new MyClass();
 	// insert "interface" example here
 	
@@ -56,7 +57,6 @@ public class Skeleton{ // A class should start with capital letter - always
 	
 	// Java Operators
 	// value = Operand, acted on by Operator (ex +)
-
 	// Operator groups
 	// Arithmetic operators
 	int addition =        x + y;
@@ -66,8 +66,8 @@ public class Skeleton{ // A class should start with capital letter - always
 	int modulus =         x / y;
 	int increment =       ++x;
 	int decrement =       --x;
-	x = 1;
-	System.out.println(x);
+	// lägg till x--, x++
+
 	// Assignment operators
 	x =  5;    // assign x to 5
 	x += 5;    // increment x by 5
@@ -105,6 +105,18 @@ public class Skeleton{ // A class should start with capital letter - always
 	c1 = a1 >> b1;  // Shift a1 by b1 bits right (binary right shift operator)
 	c1 = a1 >>> b1; // Shift a1 by b1 bits right (Shift right zero fill operator)
 	                // and fill left bits with 0's.
+
+	/* 
+	   Strings
+	   Strings in Java are objects, that's why it has the same format as object creation.
+	   Strings contain their own methods like .length(); 
+	*/
+	
+	String example = new String("Hello");
+	example.length(); // Returns the length of the String.
+
+	Random r = new Random();
+	System.out.println(r.nextInt(10));
 
 	
     }

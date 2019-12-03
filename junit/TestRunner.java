@@ -3,6 +3,7 @@ import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
 public class TestRunner {
+    
     public static void main(String[] args){
 	Result result = JUnitCore.runClasses(TestJunit.class);
 
@@ -11,6 +12,7 @@ public class TestRunner {
 	}
 
 	System.out.println(result.wasSuccessful());
+
     }
     
 }
