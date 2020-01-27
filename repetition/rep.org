@@ -26,11 +26,13 @@
 
   
 * Standard klasser
+
 ** Math
    behöver inte importeras
    Math.PI // 3.14...
 
 ** Random
+   Genererar random nummer.
    
 ** Scanner
    reset nextLine(); Använd en tom nextLine mellan användande för att reset'a

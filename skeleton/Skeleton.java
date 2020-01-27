@@ -117,5 +117,7 @@ public class Skeleton{ // A class should start with capital letter - always
 
 	Random r = new Random();
 	System.out.println(r.nextInt(10));
+
+	
     }
 }
